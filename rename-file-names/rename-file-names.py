@@ -1,8 +1,8 @@
 import os
 
 def rename_files():
-    current_path = os.path.dirname(os.path.abspath(__file__)) 
-    path_to_dir = current_path + '/prank'
+    current_dir = os.path.dirname(os.path.abspath(__file__)) 
+    path_to_dir = current_dir + '/prank'
 
     file_list = os.listdir(path_to_dir)
 
